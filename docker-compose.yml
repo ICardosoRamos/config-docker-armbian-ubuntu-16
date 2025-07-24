@@ -1,0 +1,7 @@
+services:
+
+  ubuntu-16-armbian-config:
+    build: .
+    platform: linux/arm/v7
+    tty: true
+    stdin_open: true
